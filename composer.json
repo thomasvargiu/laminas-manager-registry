@@ -1,6 +1,6 @@
 {
     "name": "thomasvargiu/laminas-manager-registry",
-    "description": "Laminas Doctrine Manager Registry",
+    "description": "Doctrine Manager Registry for Laminas",
     "type": "library",
     "license": "MIT",
     "authors": [

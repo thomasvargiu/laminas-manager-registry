@@ -40,10 +40,7 @@ $config->setRules($rulesProvider->getRules());
 $config->setRiskyAllowed(true);
 
 $ignorePaths = [
-    __DIR__ . '/module/Blacklist/tests/data',
-    __DIR__ . '/module/CougarWS/tests/data',
-    __DIR__ . '/data/DoctrineORMModule/Proxy',
-    __DIR__ . '/module/AppAoT/gen',
+    __DIR__ . '/tests/Bootstrap.php',
 ];
 $config->getFinder()
     ->filter(static function (\Symfony\Component\Finder\SplFileInfo $fileinfo) use ($ignorePaths) {

@@ -54,7 +54,7 @@
             "TMV\\Laminas\\ManagerRegistry\\Test\\": "tests/"
         },
         "files": [
-            "tests/functions.php"
+            "tests/Bootstrap.php"
         ]
     },
     "conflict": {
